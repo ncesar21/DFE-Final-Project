@@ -7,5 +7,5 @@ app = Flask(__name__)
 def home():
 return '<h1> index page </h1>'
 @app.route("/home")
-def helloworld():
+def Hello Team():
 return '<h1> Hello Team</h1><title> <h1> Welcome to Fantasy Football </h1>'
